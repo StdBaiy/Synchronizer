@@ -1,0 +1,26 @@
+# basic config:
+device name: StdBay-Desktop
+# client config:
+managed dirs:
+  # - C:\Users\stdbay\Desktop\sync_test
+  # - C:\Users\stdbay\Desktop\test
+  # - C:\Users\stdbay\Desktop
+  - C:\Users\stdbay\Desktop\test
+file size limit: 512 # MB
+quote num limit: 10 # times
+always cover: true
+scan frequency: 10 # in seconds
+only local: false # if true, will not connect internet
+conn timeout: 60 # in seconds
+auto start: true
+# schedule: # support cron like syntax, TODO
+#   - 0 0 0 * * * # every day at 00:00:00
+
+# server config:
+server addr: 111.229.162.230 # 127.0.0.1 
+server port: 8088
+verify port: 8089
+storage location: 
+allow register: true
+allow verification: false
+listen num: 128

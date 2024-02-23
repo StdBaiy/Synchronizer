@@ -1,0 +1,11 @@
+.vscode/
+.VSCodeCounter/
+cert/*
+db/*
+bin/
+build/
+dist/*
+tmp/*
+*.log*
+*__pycache__/
+synchronizer开发文档.md

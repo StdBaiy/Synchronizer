@@ -1,0 +1,12 @@
+cryptography
+names
+psutil
+pycparser
+pycryptodome
+pyinstaller
+pyOpenSSL
+python-fossil-delta
+pywin32
+pywin32-ctypes
+PyYAML
+watchdog
